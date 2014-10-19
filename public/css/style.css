@@ -1,0 +1,183 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    background: #2c3e50;
+}
+
+.loader
+{
+    text-align: center;
+}
+
+.loader img
+{
+    max-height: 0;
+    margin: 0;
+
+    -webkit-transition: 1s all ease;
+       -moz-transition: 1s all ease;
+        -ms-transition: 1s all ease;
+         -o-transition: 1s all ease;
+            transition: 1s all ease;
+}
+
+.loader.active img
+{
+    max-height: 50px;
+    margin: 10px auto 20px;
+}
+
+.notification-bar
+{
+    font-size: 13px;
+    font-weight: bold;
+
+    position: fixed;
+    top: -60px;
+
+    width: 100%;
+
+    -webkit-transition: 300ms top ease;
+       -moz-transition: 300ms top ease;
+        -ms-transition: 300ms top ease;
+         -o-transition: 300ms top ease;
+            transition: 300ms top ease;
+    text-align: center;
+
+    color: white;
+    background: rgba(241, 196, 15,.9);
+}
+
+.notification-bar.active
+{
+    top: 0;
+}
+
+.notification-bar a
+{
+    color: white;
+}
+
+.tweets
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tweet
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    max-height: 0;
+    margin: 0;
+
+    list-style-type: none;
+
+    -webkit-transition: 1s all ease;
+       -moz-transition: 1s all ease;
+        -ms-transition: 1s all ease;
+         -o-transition: 1s all ease;
+            transition: 1s all ease;
+
+    color: #2c3e50;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 0 3px 0 #eee;
+}
+
+.tweet.active
+{
+    max-height: 125px;
+    margin: 20px 0;
+}
+
+.tweet .avatar
+{
+    position: relative;
+
+    display: inline-block;
+    float: left;
+
+    width: 48px;
+    margin: 10px;
+
+    border: 2px solid #ccc;
+    border-radius: 48px;
+}
+
+.tweet blockquote
+{
+    font-size: 14px;
+
+    display: inline-block;
+    float: right;
+
+    width: calc(100% - 72px);
+    margin: 0;
+    padding: 10px;
+}
+
+.tweet blockquote cite
+{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.tweet blockquote cite a
+{
+    display: inline-block;
+
+    margin-right: 5px;
+
+    text-decoration: none;
+
+    color: #1abc9c;
+}
+
+.tweet blockquote cite a:hover
+{
+    text-decoration: underline;
+}
+
+.tweet blockquote .screen-name
+{
+    font-size: 13px;
+    font-weight: normal;
+
+    color: #ccc;
+}
+
+.tweet blockquote .content
+{
+    display: block;
+    clear: left;
+
+    margin-top: 5px;
+}
+
+.tweet:before,
+.tweet:after
+{
+    display: table;
+
+    content: ' ';
+}
+
+.tweet:after
+{
+    clear: both;
+}
