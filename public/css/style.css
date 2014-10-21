@@ -8,10 +8,54 @@ body
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 
     margin: 0;
-    padding: 0;
+    padding: 0 0 40px 0;
 
     color: white;
     background: #2c3e50;
+}
+
+footer
+{
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+
+    width: 100%;
+    padding: 10px;
+
+    background: #bdc3c7;
+}
+
+footer a,
+footer span
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer a.link-back
+{
+    text-decoration: none;
+
+    color: #2c3e50;
+}
+
+footer .twitter-share-button
+{
+    margin-right: 10px;
+}
+
+footer span.update-message
+{
+    padding-top: 3px;
+
+    color: #2c3e50;
+}
+
+footer .twitter-share-button,
+footer .update-message
+{
+    float: right;
 }
 
 .loader
@@ -180,4 +224,26 @@ body
 .tweet:after
 {
     clear: both;
+}
+
+@media (max-width: 650px)
+{
+    footer span.update-message
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 500px)
+{
+    footer a.link-back
+    {
+        font-size: 0;
+    }
+    footer a:after
+    {
+        font-size: 12px;
+
+        content: '← Back To Learning React';
+    }
 }
