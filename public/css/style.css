@@ -14,35 +14,47 @@ body
     background: #2c3e50;
 }
 
-footer {
-    padding: 10px;
+footer
+{
     position: fixed;
-    width: 100%;
     z-index: 999;
+    bottom: 0;
+
+    width: 100%;
+    padding: 10px;
+
     background: #bdc3c7;
-    bottom: 0px;
 }
 
-footer a, footer span {
-    font-weight: bold;
+footer a,
+footer span
+{
     font-size: 12px;
+    font-weight: bold;
 }
 
-footer a.link-back {
+footer a.link-back
+{
     text-decoration: none;
+
     color: #2c3e50;
 }
 
-footer .twitter-share-button {
+footer .twitter-share-button
+{
     margin-right: 10px;
 }
 
-footer span.update-message {
-    color: #2c3e50;
+footer span.update-message
+{
     padding-top: 3px;
+
+    color: #2c3e50;
 }
 
-footer .twitter-share-button, footer .update-message {
+footer .twitter-share-button,
+footer .update-message
+{
     float: right;
 }
 
@@ -214,18 +226,24 @@ footer .twitter-share-button, footer .update-message {
     clear: both;
 }
 
-@media (max-width: 650px) {
-    footer span.update-message {
+@media (max-width: 650px)
+{
+    footer span.update-message
+    {
         display: none;
     }
 }
 
-@media (max-width: 500px) {
-    footer a.link-back {
+@media (max-width: 500px)
+{
+    footer a.link-back
+    {
         font-size: 0;
     }
-    footer a:after {
-        content: "← Back To Learning React";
+    footer a:after
+    {
         font-size: 12px;
+
+        content: '← Back To Learning React';
     }
 }
