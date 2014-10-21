@@ -21,9 +21,9 @@ footer
     bottom: 0;
 
     width: 100%;
-    padding: 10px;
+    padding: 20px;
 
-    background: #bdc3c7;
+    background: #abd9ff;
 }
 
 footer a,
@@ -245,5 +245,6 @@ footer .update-message
         font-size: 12px;
 
         content: '← Back To Learning React';
+
     }
 }
