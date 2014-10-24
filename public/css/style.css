@@ -126,16 +126,10 @@ footer .update-message
     display: block;
     overflow: hidden;
 
-    max-height: 0;
+    max-height: 0px;
     margin: 0;
 
     list-style-type: none;
-
-    -webkit-transition: 1s all ease;
-       -moz-transition: 1s all ease;
-        -ms-transition: 1s all ease;
-         -o-transition: 1s all ease;
-            transition: 1s all ease;
 
     color: #2c3e50;
     border-radius: 3px;
@@ -147,6 +141,12 @@ footer .update-message
 {
     max-height: 125px;
     margin: 20px 0;
+
+    -webkit-transition: 1s all ease;
+       -moz-transition: 1s all ease;
+        -ms-transition: 1s all ease;
+         -o-transition: 1s all ease;
+            transition: 1s all ease;
 }
 
 .tweet .avatar
