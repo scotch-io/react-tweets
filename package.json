@@ -4,8 +4,8 @@
   "description": "Isomorphic React Example",
   "main": "app.js",
   "engines": {
-    "node": { "~0.10.20" },
-    "npm": { "~1.3.11" }
+    "node": "~0.10.20",
+    "npm": "~1.3.11"
   },
   "scripts": {
     "watch": "watchify app.js -o public/js/bundle.js -v",
