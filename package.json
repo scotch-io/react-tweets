@@ -18,8 +18,7 @@
     "node-jsx": "~0.11.0",
     "ntwitter": "^0.5.0",
     "react": "~0.11.2",
-    "socket.io": "^1.1.0",
-    "forever": "~0.14.1"
+    "socket.io": "^1.1.0"
   },
   "devDependencies": {
     "browserify": "~6.0.3",
