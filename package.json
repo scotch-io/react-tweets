@@ -25,7 +25,7 @@
     "nodemon": "^1.2.1",
     "reactify": "~0.14.0",
     "uglify-js": "~2.4.15",
-    "watchify": "~2.0.0"
+    "watchify": "^3.1.1"
   },
   "browserify": {
     "transform": [
