@@ -20,7 +20,7 @@ app.set('view engine', 'handlebars');
 app.disable('etag');
 
 // Connect to our mongo database
-mongoose.connect('mongodb://node:nodenode@proximus.modulusmongo.net:27017/orajY4ta');
+mongoose.connect('mongodb://localhost/react-tweets');
 
 // Create a new ntwitter instance
 var twit = new twitter(config.twitter);
