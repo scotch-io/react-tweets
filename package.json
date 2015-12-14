@@ -15,10 +15,10 @@
     "express": "~4.9.7",
     "express-handlebars": "~1.1.0",
     "mongoose": "^3.8.23",
-    "node-jsx": "~0.11.0",
-    "twitter": "^1.2.0",
-    "react": "~0.11.2",
-    "socket.io": "^1.1.0"
+    "node-jsx": "~0.12.4",
+    "react": "~0.13.3",
+    "socket.io": "^1.1.0",
+    "twitter": "^1.2.0"
   },
   "devDependencies": {
     "browserify": "~6.0.3",
