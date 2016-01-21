@@ -16,14 +16,14 @@
     "express-handlebars": "~1.1.0",
     "mongoose": "^3.8.23",
     "node-jsx": "~0.12.4",
-    "react": "~0.13.3",
+    "react": "~0.14.6",
     "socket.io": "^1.1.0",
     "twitter": "^1.2.0"
   },
   "devDependencies": {
     "browserify": "~6.0.3",
     "nodemon": "^1.2.1",
-    "reactify": "~0.14.0",
+    "reactify": "~1.1.1",
     "uglify-js": "~2.4.15",
     "watchify": "^3.1.1"
   },
