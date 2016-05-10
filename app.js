@@ -7,7 +7,7 @@ var TweetsApp = require('./components/TweetsApp.react');
 var initialState = JSON.parse(document.getElementById('initial-state').innerHTML)
 
 // Render the components, picking up where react left off on the server
-React.renderComponent(
+React.render(
   <TweetsApp tweets={initialState}/>,
   document.getElementById('react-app')
 );
